@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/normal_map"
+            android:icon="@mipmap/ic_map_black_24dp"
+            android:title="Map View" />
+        <item
+            android:id="@+id/navigation_map"
+            android:icon="@mipmap/ic_navigation_black_24dp"
+            android:title="Navigate" />
+        <item
+            android:id="@+id/realtime_location"
+            android:icon="@mipmap/ic_radio_button_checked_black_24dp"
+            android:title="Realtime Location" />
+        <item
+            android:id="@+id/pinned_location"
+            android:icon="@mipmap/ic_pin_drop_black_24dp"
+            android:title="Pinned Locations" />
+    </group>
+
+    <item android:title="others">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/app_settings"
+                android:icon="@mipmap/app_settings"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
