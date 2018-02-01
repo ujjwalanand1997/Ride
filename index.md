@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+## Ride
 
-You can use the [editor on GitHub](https://github.com/ujjwalanand1997/Ride/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+It is an android based project, mainly giving some google map features.
+Ride is capable of getting **REALTIME LOCATION** of different users, and also having other **MAPS** features like navigation to different location.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![logo](https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/ic_launcher.png?raw=true)
 
-### Markdown
+## Getting Started
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-```markdown
-Syntax highlighted code block
+<img src="https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/Screenshot_20180131-225838.png?raw=true" width="300">  <img src="https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/Screenshot_20180131-225851.png?raw=true" width="300">  <img src="https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/Screenshot_20180131-225856.png?raw=true" width="300">
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Prerequisites
 
-1. Numbered
-2. List
+The whole project was made on **Android Studio**. So you need to have a knowlegde of android app development on Android Studio.
+The Major Syntax must be known.
+You Should know about the java coding in order to proceed to android.
 
-**Bold** and _Italic_ and `Code` text
+### Installing
 
-[Link](url) and ![Image](src)
-```
+[Download Android Studio](https://developer.android.com/studio/index.html)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Search for SDK Tool also. 
 
-### Jekyll Themes
+## Usage
+If you want to use the code in your project. Just include the java and resource file to your System. and Check the Android Manifest files to Fill the required **API Keys**.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ujjwalanand1997/Ride/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Other files will be created when you will start a project. I am not sharing the full project, but only the activities and layout files, So that anyone can use it.
 
-### Support or Contact
+Read the [Firebase Android](https://firebase.google.com/docs/android/setup) documentation to proceed the full backend.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Deployment
+
+The project is not deployed on the playstore. 
+The backend is fully supported by Firebase(google cloud).
+
+## Authors
+
+* **Ujjwal Anand** - *Including all works* - [linkedin profile](https://www.linkedin.com/in/ujjwal-anand-653623151/)
+
+## License
+
+This project is free to use and grow without any limitation.
+
+## Acknowledgments
+
+* This whole idea was made by a friend during a trip.. So thanks to him.
+* I got much help from google.
+* Thanks to [Udacity.com](Udacity) to give such a handfull of tutorials free to use and learn.
+
