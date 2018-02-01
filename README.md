@@ -16,6 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 The whole project was made on **Android Studio**. So you need to have a knowlegde of android app development on Android Studio.
 The Major Syntax must be known.
+You Should know about the java coding in order to proceed to android.
 
 ### Installing
 
@@ -23,46 +24,29 @@ The Major Syntax must be known.
 
 Search for SDK Tool also. 
 
-## Running the tests
+## Usage
 If you want to use the code in your project. Just include the java and resource file to your System. and Check the Android Manifest files to Fill the required **API Keys**.
 
-### And coding style tests
+Other files will be created when you will start a project. I am not sharing the full project, but only the activities and layout files, So that anyone can use it.
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+Read the [Firebase Android](https://firebase.google.com/docs/android/setup) documentation to proceed the full backend.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+The project is not deployed on the playstore. 
+The backend is fully supported by Firebase(google cloud).
 
 ## Authors
 
-* **Ujjwal Anand** - *Include all works* - [linkedin](https://www.linkedin.com/in/ujjwal-anand-653623151/)
+* **Ujjwal Anand** - *Including all works* - [linkedin profile](https://www.linkedin.com/in/ujjwal-anand-653623151/)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is free to use and grow without any limitation.
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* This whole idea was made by a friend during a trip.. So thanks to him.
+* I got much help from google.
+* Thanks to [Udacity.com](Udacity) to give such a handfull of tutorials free to use and learn.
 
