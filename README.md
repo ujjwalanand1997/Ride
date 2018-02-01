@@ -25,7 +25,8 @@ You Should know about the java coding in order to proceed to android.
 Search for SDK Tool also. 
 
 ## Usage
-If you want to use the code in your project. Just include the java and resource file to your System. and Check the Android Manifest files to Fill the required **API Keys**.
+If you want to use the code in your project. Just include the java and resource file to your System. and Check the Android Manifest files to Fill the required **API Keys**. But the MainActivity.java file is not included in the project. As I need to proceed it further.
+So, send an email at **ujjwalanand1997@gmail.com** for the code and i will provide you personally.
 
 Other files will be created when you will start a project. I am not sharing the full project, but only the activities and layout files, So that anyone can use it.
 
@@ -36,13 +37,10 @@ Read the [Firebase Android](https://firebase.google.com/docs/android/setup) docu
 The project is not deployed on the playstore. 
 The backend is fully supported by Firebase(google cloud).
 
-## Authors
+## Author
 
 * **Ujjwal Anand** - *Including all works* - [linkedin profile](https://www.linkedin.com/in/ujjwal-anand-653623151/)
 
-## License
-
-This project is free to use and grow without any limitation.
 
 ## Acknowledgments
 
