@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="udev.com.ride.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/logo_art"
+                />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        app:backgroundTint="#ffffff"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@+id/pin_button"
+        app:layout_anchorGravity="right|top"
+
+        app:srcCompat="@mipmap/ic_navigation_black_24dp" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#ffffff"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@+id/pin_button"
+        app:layout_anchorGravity="left"
+        app:srcCompat="@mipmap/ic_radio_button_checked_black_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/pin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        app:backgroundTint="#ffffff"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@mipmap/ic_pin_drop_black_24dp" />
+
+</android.support.design.widget.CoordinatorLayout>

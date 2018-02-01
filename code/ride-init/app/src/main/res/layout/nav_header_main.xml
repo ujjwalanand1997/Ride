@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/profile_pic"
+        android:src="@drawable/default_user_pic"
+        app:civ_border_color="#ffffff"
+        app:civ_border_width="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="username"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/username"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/profile_pic"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="userid"
+        android:textColor="#ffffff"
+        android:id="@+id/userid"
+        android:layout_below="@+id/username"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userid"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:id="@+id/signOutBtn"
+        android:background="#ffffff"
+        android:text="logout"
+        android:textColor="@color/colorPrimary"
+        android:onClick="signOutOperation"
+        />
+
+</RelativeLayout>

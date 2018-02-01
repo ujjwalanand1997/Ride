@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/getEmail"
+    android:background="@color/colorPrimary"
+    android:padding="5dp"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/editEmail"
+        android:layout_gravity="center_vertical"
+        android:hint="Enter username"
+        android:background="#ffffff"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="request"
+        android:background="#ffffff"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/requestLocation"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/cancel"
+        />
+    </LinearLayout>
+</LinearLayout>
