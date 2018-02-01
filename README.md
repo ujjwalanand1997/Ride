@@ -9,7 +9,7 @@ Ride is capable of getting **REALTIME LOCATION** of different users, and also ha
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-<img src="https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/Screenshot_20180131-225838.png?raw=true" width="300">  <img src="https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/Screenshot_20180131-225851.png?raw=true" width="300">  <img src="https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/Screenshot_20180131-225856.png?raw=true" width="300">
+<img src="https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/Screenshot_20180131-225838.png?raw=true" width="260">  <img src="https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/Screenshot_20180131-225851.png?raw=true" width="260">  <img src="https://github.com/ujjwalanand1997/Ride/blob/master/ScreenShots/Screenshot_20180131-225856.png?raw=true" width="260">
 
 
 ### Prerequisites
